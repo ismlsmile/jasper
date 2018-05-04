@@ -9,9 +9,9 @@
 ```
 ServletParser s = new ServletParser(new File("C:\\Users\\IdeaProjects\\AtomCat\\index.jsp"));//jsp文件路径
 try {
- 	s.parse();//在docRoot下生成index_jsp.java和index_jsp.class
+	s.parse();//在docRoot下生成index_jsp.java和index_jsp.class
 }
-catch (Exception e)从{
+catch (Exception e){
     e.printStackTrace();
 }
 ```
